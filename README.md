@@ -23,3 +23,11 @@ https://www.data.go.kr/data/15044234/fileData.do
 ## 홈페이지 링크
 
 ## 홈페이지 소개
+
+#### * 메인화면   
+![메인](https://user-images.githubusercontent.com/70924137/102069648-64cec180-3e41-11eb-83c5-5db139e4c606.JPG)
+메인화면은 승하차 정보를 알 수있는 Population, 물품보관함 정보를 알수 있는 Locker, 엘리베이터 정보를 알 수 있는 Elevator, 그리고 기타 정보들이 나오는 Others페이지로 넘어 갈 수 있는 페이지입니다. 각각의 페이지는 지하철 호선 클릭해 넘어갈 수 있습니다. 또한 현재 시간과 온도를 알 수 있으며 지하철 느낌의 bgm도 삽입하였습니다.
+
+#### * Population   
+![population](https://user-images.githubusercontent.com/70924137/102070246-33a2c100-3e42-11eb-9769-ffab53dca9af.JPG)   
+
