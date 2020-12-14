@@ -27,30 +27,29 @@
 > https://www.data.go.kr/data/15044234/fileData.do
 ------------
 + 데이터베이스
-> DB) 
+> DB - Subway)
 
-	Subway)
 	- 승하차별 인원수 : time   
 	- 물품보관함 : locker   
 	- 엘리베이터 : elevator   
   
 > 컬럼명)
 
-    time)
+    time
     - 월별: month
     - 호선: line
     - 역명: station
     - 승차시간: rtime0_0  예))rtime4_5, rtime5_6
     - 하차시간: qtime0_0  예))qtime4_5, qtime5_6
     
-    locker)
+    locker
     - 호선: line
     - 역명: station
     - 위치: l_location
     
   
     elevator
-     - 호선: line
+    - 호선: line
     - 역명: station
     - 내, 외부 여부: e_num
     - 엘리베이터 설치위치: e_location
