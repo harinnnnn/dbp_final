@@ -19,6 +19,32 @@ https://www.data.go.kr/data/15044261/fileData.do
 3. 지하철역 물품 보관함 정보   
 https://www.data.go.kr/data/15044234/fileData.do
 
+## 데이터베이스
+- DB) Subway
+	- 승하차별 인원수 : time
+	- 물품보관함 : locker
+	- 엘리베이터 : elevator
+  
+- 컬럼명)
+  - time))
+    - 월별: month
+    - 호선: line
+    - 역명: station
+    - 승차시간: rtime0_0  예))rtime4_5, rtime5_6
+    - 하차시간: qtime0_0  예))qtime4_5, qtime5_6
+    
+  - locker)
+    - 호선: line
+    - 역명: station
+    - 위치: l_location
+    
+  
+  - elevator
+     - 호선: line
+    - 역명: station
+    - 내, 외부 여부: e_num
+    - 엘리베이터 설치위치: e_location
+
 
 ## 홈페이지 링크
 http://swinfo.dothome.co.kr/
@@ -57,7 +83,5 @@ Line(호선) 클릭을 통해 Elevator 페이지로 넘어가면 다시 역명�
 ## 느낀점
 
 ## 참고 문헌
-
-
 
 
