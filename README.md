@@ -28,12 +28,12 @@
 ------------
 + 데이터베이스
 > DB) Subway
-	- 승하차별 인원수 : time
-	- 물품보관함 : locker
-	- 엘리베이터 : elevator
+	- 승하차별 인원수 : time   
+	- 물품보관함 : locker   
+	- 엘리베이터 : elevator   
   
 > 컬럼명)
-    time))
+    time)
     - 월별: month
     - 호선: line
     - 역명: station
