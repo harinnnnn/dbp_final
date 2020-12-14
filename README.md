@@ -11,7 +11,7 @@
 ------------
 + 구축환경 정보
 
-> 호스팅 - Dothome
+> 호스팅 - Dothome   
 > 데이터베이스 - mySQL, phpMyAdmin   
 > 사용 언어 - PHP, HTML, CSS
 ------------
