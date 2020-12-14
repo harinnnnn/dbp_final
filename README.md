@@ -10,8 +10,9 @@
 
 ## 구축환경 정보
 
-구축 환경 - Dothome, mySQL, phpMyAdmin   
-사용 언어 - PHP, HTML, CSS
+- 호스팅 - Dothome
+- 데이터베이스 - mySQL, phpMyAdmin   
+-  언어 - PHP, HTML, CSS
 
 ## 데이터 출처
 
