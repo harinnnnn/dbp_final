@@ -26,8 +26,27 @@ https://www.data.go.kr/data/15044234/fileData.do
 
 #### * 메인화면   
 ![메인](https://user-images.githubusercontent.com/70924137/102069648-64cec180-3e41-11eb-83c5-5db139e4c606.JPG)
-메인화면은 승하차 정보를 알 수있는 Population, 물품보관함 정보를 알수 있는 Locker, 엘리베이터 정보를 알 수 있는 Elevator, 그리고 기타 정보들이 나오는 Others페이지로 넘어 갈 수 있는 페이지입니다. 각각의 페이지는 지하철 호선 클릭해 넘어갈 수 있습니다. 또한 현재 시간과 온도를 알 수 있으며 지하철 느낌의 bgm도 삽입하였습니다.
+메인화면은 승하차 정보를 알 수있는 Population, 물품보관함 정보를 알수 있는 Locker, 엘리베이터 정보를 알 수 있는 Elevator, 그리고 기타 정보들이 나오는 Others페이지로 넘어 갈 수 있는 페이지입니다. 각각의 페이지는 Line(지하철 호선)을 클릭해 넘어갈 수 있습니다. 또한 현재 시간과 온도를 알 수 있으며 지하철 느낌의 bgm도 삽입하였습니다.
 
 #### * Population   
-![population](https://user-images.githubusercontent.com/70924137/102070246-33a2c100-3e42-11eb-9769-ffab53dca9af.JPG)   
+![population](https://user-images.githubusercontent.com/70924137/102070601-ac098200-3e42-11eb-8c79-e493b2481d3c.JPG)
+Line(호선) 클릭을 통해 넘어간 Poplulation 페이지는 승차/하차로 나눠져 역명을 검색할 수 있습니다.   
+역명을 검색하면 검색역명의 승차 혹은 하차 인원수를 달별(2020년 1년간), 시간별로 볼 수 있습니다.
+
+#### * Locker
+![Locker](https://user-images.githubusercontent.com/70924137/102070867-0f93af80-3e43-11eb-9049-206435985987.JPG)
+Line(호선) 클릭을 통해 Locker 페이지로 넘어가면 다시 역명을 검색하는 페이지가 나옵니다.   
+역명을 검색하는 페이지에서 역명을 검색하면 해당 역의 물품보관함 정보를 볼 수 있습니다.
+
+#### * Elevator
+![Elevator](https://user-images.githubusercontent.com/70924137/102071136-68fbde80-3e43-11eb-91ad-18bee0753009.JPG)
+Line(호선) 클릭을 통해 Elevator 페이지로 넘어가면 다시 역명을 검색하는 페이지가 나옵니다.   
+역명을 검색하는 페이지에서 역명을 검색하면 해당 역의 엘리베이터 정보를 볼 수 있습니다.
+
+#### * Others
+![Others](https://user-images.githubusercontent.com/70924137/102071402-c5f79480-3e43-11eb-9ff4-0d8d348360fc.JPG)
+메인페이지에서 Others섹션의 Click을 클릭하면 시간, 날짜, 지하철노선도, 뉴스, SNS정보등 여러가지 기타 정보들을 얻을 수 있습니다.
+
+
+
 
