@@ -72,14 +72,18 @@
 > * Population   
 ![population](https://user-images.githubusercontent.com/70924137/102070601-ac098200-3e42-11eb-8c79-e493b2481d3c.JPG)
 
-> Line(호선) 클릭을 통해 넘어간 Poplulation 페이지는 승차/하차로 나눠져 역명을 검색할 수 있습니다.   
+> Line(호선) 클릭을 통해 넘어간 Poplulation 페이지는 승차/하차로 나눠져 역명을 검색할 수 있습니다. 
+
+![population3](https://user-images.githubusercontent.com/70924137/102086703-d9165e80-3e5b-11eb-9d57-fe7bc37e08d4.JPG)
 > 역명을 검색하면 검색역명의 승차 혹은 하차 인원수를 달별(2020년 1년간), 시간별로 볼 수 있습니다.
 
 > * Locker
 
 ![Locker](https://user-images.githubusercontent.com/70924137/102070867-0f93af80-3e43-11eb-9049-206435985987.JPG)
 
->Line(호선) 클릭을 통해 Locker 페이지로 넘어가면 다시 역명을 검색하는 페이지가 나옵니다.   
+>Line(호선) 클릭을 통해 Locker 페이지로 넘어가면 다시 역명을 검색하는 페이지가 나옵니다.
+
+![Locker3](https://user-images.githubusercontent.com/70924137/102086781-f51a0000-3e5b-11eb-8ce0-32e6ae572a4d.JPG)
 >역명을 검색하는 페이지에서 역명을 검색하면 해당 역의 물품보관함 정보를 볼 수 있습니다.
 
 > * Elevator
@@ -87,6 +91,8 @@
 ![Elevator](https://user-images.githubusercontent.com/70924137/102071136-68fbde80-3e43-11eb-91ad-18bee0753009.JPG)
 
 > Line(호선) 클릭을 통해 Elevator 페이지로 넘어가면 다시 역명을 검색하는 페이지가 나옵니다.   
+
+![Elevator3](https://user-images.githubusercontent.com/70924137/102086826-07943980-3e5c-11eb-9e5b-d9e61e7d4de4.JPG)
 > 역명을 검색하는 페이지에서 역명을 검색하면 해당 역의 엘리베이터 정보를 볼 수 있습니다.
 
 > * Others
@@ -97,7 +103,7 @@
 ------------
 +  역할분담
 
-> 프론트 - css, html: 박민지, javascript: 이지원   
+> 프론트 - 박민지, 이지원   
 > 백 - 김현성, 서태민, 이은영   
 ------------
 + 프로젝트 개선점
