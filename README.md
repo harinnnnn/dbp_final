@@ -51,9 +51,7 @@
     - 역명: station
     - 내, 외부 여부: e_num
     - 엘리베이터 설치위치: e_location
- ------------
- + 홈페이지 
- http://swinfo.dothome.co.kr/
+ 
  ------------
     
 + 홈페이지 소개
