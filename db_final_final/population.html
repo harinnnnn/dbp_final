@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+   <title>Population</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <link rel="stylesheet" href="population.css">
+       <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
+<style>
+
+                  #topMenu {
+                          height: 30px;
+                          width: 850px;
+
+                  }
+
+                  #topMenu ul li {
+                          list-style: none;
+                          color: white;
+                          background-color: #white;
+                          float: left;
+                          line-height: 30px;
+                          vertical-align: middle;
+                          text-align: center;
+                  }
+
+                  #topMenu .menuLink {
+                          text-decoration:none;
+                          color: white;
+                          display: block;
+                          width: 150px;
+                          font-size: 18px;
+                          font-weight: bold;
+                          font-family: "Trebuchet MS";
+                  }
+                  #topMenu .menuLink:hover {
+
+                          background-color: #ffcc00;
+                  }
+
+</style>
+</head>
+
+<body>
+    <audio autoplay controls><source src="3.mp3" type="audio/mp3"></audio>
+  <nav id="topMenu" > <ul> <li><a class="menuLink" href="index.html">HOME</a></li> <li><a class="menuLink" href="locker.html">LOCKER</a></li> <li><a class="menuLink" href="elevator.html">ELEVATOR</a></li> <li>
+    <a class="menuLink" href="other.html">OTHERS</a></li></ul> </nav>
+
+  <h1><span>S</span><span>t</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span></h1>
+  <form action="time_info_in.html" method="GET">
+      <div class="mx-auto mt-5 search-bar input-group mb-3 " style="width: 500px;">
+        <h5> 승차 </h5>
+          <input name="station" type="text" class="form-control rounded-pill" placeholder="Search Station:)"
+              aria-label="Recipient's username" aria-describedby="button-addon2">
+            <input type="submit" value="Search">
+      </div>
+  </form>
+  <form action="time_info_out.html" method="GET">
+      <div class="mx-auto mt-5 search-bar input-group mb-3 " style="width: 500px;">
+        <h5> 하차 </h5>
+          <input name="station" type="text" class="form-control rounded-pill" placeholder="Search Station:)"
+              aria-label="Recipient's username" aria-describedby="button-addon2">
+            <input type="submit" value="Search">
+      </div>
+  </form>
+</body>
+</html>

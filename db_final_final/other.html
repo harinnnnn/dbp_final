@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OTHERS</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300|Roboto+Mono:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
+         <style>
+
+                           #topMenu {
+                                   height: 30px;
+                                   width: 850px;
+
+                           }
+
+                           #topMenu ul li {
+                                   list-style: none;
+                                   color: white;
+                                   background-color: #white;
+                                   float: left;
+                                   line-height: 30px;
+                                   vertical-align: middle;
+                                   text-align: center;
+                           }
+
+                           #topMenu .menuLink {
+                                   text-decoration:none;
+                                   color: white;
+                                   display: block;
+                                   width: 150px;
+                                   font-size: 18px;
+                                   font-weight: bold;
+                                   font-family: "Trebuchet MS";
+                           }
+                           #topMenu .menuLink:hover {
+
+                                   background-color: #ffcc00;
+                           }
+
+         </style>
+  </head>
+  <body>
+      <audio autoplay controls><source src="2.mp3" type="audio/mp3"></audio>
+        <nav id="topMenu" > <ul> <li><a class="menuLink" href="index.html">HOME</a></li> <li><a class="menuLink" href="locker.html">LOCKER</a></li> <li><a class="menuLink" href="elevator.html">ElEVATOR</a></li> <li>
+          <a class="menuLink" href="other.html">OTHERS</a></li></ul> </nav>
+
+    <header>
+      <time id="js-clock"></time>
+      <span id="js-date" class="date"></span>
+    </header>
+    <div class="wrapper">
+      <section class="main">
+        <section class="reddit">
+          <h3>SNS</h3>
+          <ul id="reddit">
+            <li><a href="https://twitter.com/seoul_metro">Twitter</a></li>
+            <li><a href="https://www.facebook.com/SeoulMetro/">Facebook</a></li>
+            <li><a href="http://www.seoulmetro.co.kr/">Website</a></li>
+          </ul>
+        </section>
+        <section class="school">
+          <h3>Map</h3>
+          <ul>
+            <li><a href="http://www.seoulmetro.co.kr/kr/cyberStation.do">Subway map</a></li>
+            <li><a href="http://www.seoulmetro.co.kr/kr/cyberStation.do">national map</a><li>
+
+        </section>
+        <section class="dev">
+          <h3>Media</h3>
+          <ul>
+            <li><a href="https://www.youtube.com/channel/UCKfDOknt5Ia7wjWCYbQwefQ">YouTube</a></li>
+            <li><a href="https://www.youtube.com/watch?v=Om8SlT3iQBo&vl=ko">Others</a></li>
+          </ul>
+        </section>
+        <section class="general">
+          <h3>News</h3>
+          <ul>
+            <li><a href="https://search.naver.com/search.naver?where=news&sm=tab_jum&query=%EC%84%9C%EC%9A%B8%EA%B5%90%ED%86%B5%EA%B3%B5%EC%82%AC">Naver</a></li>
+            <li><a href="https://search.daum.net/search?w=news&nil_search=btn&DA=NTB&enc=utf8&cluster=y&cluster_page=1&q=%EC%84%9C%EC%9A%B8%EA%B5%90%ED%86%B5%EA%B3%B5%EC%82%AC">Daum</a></li>
+            <li><a href="https://www.google.com/search?q=%EC%84%9C%EC%9A%B8%EA%B5%90%ED%86%B5%EA%B3%B5%EC%82%AC&source=lnms&tbm=nws&sa=X&ved=2ahUKEwiA0Y3cicbtAhUKCqYKHWWqDkQQ_AUoAXoECAkQAw&biw=1600&bih=762">Google</a></li>
+          </ul>
+        </section>
+        <section class="search">
+          <form action="https://www.google.com/" method="get">
+            <input type="search" autocomplete="off" placeholder="search something" name="q" class="searchbox">
+            <input type="submit" value="search" style="display:none;">
+          </form>
+        </section>
+      </section>
+      <footer>
+      </footer>
+    </div>
+    <script>
+      function ordinal_suffix_of(i) {
+        var j = i % 10,
+            k = i % 100;
+        if (j == 1 && k != 11) {
+            return i + "st";
+        }
+        if (j == 2 && k != 12) {
+            return i + "nd";
+        }
+        if (j == 3 && k != 13) {
+            return i + "rd";
+        }
+        return i + "th";
+      }
+
+      class Clock {
+        constructor() {
+          this._clockEl = document.getElementById('js-clock');
+          this._dateEl = document.getElementById('js-date');
+          this._setTime = this._setTime.bind(this);
+          this._start();
+        }
+        _pad(num) {
+          return (`0${num.toString()}`).slice(-2);
+        }
+        _setTime() {
+          const date = new Date();
+          const hours = this._pad(date.getHours());
+          const minutes = this._pad(date.getMinutes());
+          this._clockEl.innerHTML = `${hours} : ${minutes}`;
+
+          const year = date.getFullYear();
+          const month = this._pad(date.getMonth());
+          const day = date.getDate();
+
+          var weekdays = new Array(7);
+          weekdays[0] = "Sunday";
+          weekdays[1] = "Monday";
+          weekdays[2] = "Tuesday";
+          weekdays[3] = "Wednesday";
+          weekdays[4] = "Thursday";
+          weekdays[5] = "Friday";
+          weekdays[6] = "Saturday";
+
+          var months = new Array(12);
+          months['00'] = "January";
+          months['01'] = "February";
+          months['02'] = "March";
+          months['03'] = "April";
+          months['04'] = "May";
+          months['05'] = "June";
+          months['06'] = "July";
+          months['07'] = "August";
+          months['08'] = "September";
+          months['09'] = "October";
+          months['10'] = "November";
+          months['11'] = "December";
+
+          var weekday   = weekdays[date.getDay()];
+          var fullMonth = months[month];
+
+          this._dateEl.innerHTML = weekday + ', ' + fullMonth + ' ' + ordinal_suffix_of(day) + ' ' + year;
+        }
+        _start() {
+          this._setTime();
+          setInterval(this._setTime, 3000);
+        }
+      }
+      const clock = new Clock();
+    </script>
+</body>
+</html>
