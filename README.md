@@ -27,12 +27,15 @@
 > https://www.data.go.kr/data/15044234/fileData.do
 ------------
 + 데이터베이스
-> DB) Subway
+> DB) 
+
+	Subway)
 	- 승하차별 인원수 : time   
 	- 물품보관함 : locker   
 	- 엘리베이터 : elevator   
   
 > 컬럼명)
+
     time)
     - 월별: month
     - 호선: line
